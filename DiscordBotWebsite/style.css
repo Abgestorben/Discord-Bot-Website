@@ -1,0 +1,223 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn.primary {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.features-section, .testimonials-section, .how-it-works-section, .call-to-action-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features-section .features, .how-it-works-section .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features-section .feature, .how-it-works-section .step {
+    width: 45%;
+    margin: 20px 0;
+}
+
+.features-section .icon-command, .features-section .icon-moderation, .features-section .icon-music, .features-section .icon-analytics {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.testimonials-section .testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonials-section .testimonial {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.testimonials-section .testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.footer-section {
+    background: #131313;
+    color: white;
+    padding: 50px 0;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p, .footer-column ul, .footer-column form {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-column .social-links a {
+    margin: 0 px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-column .social-links a:hover {
+    color: #667eea;
+}
+
+.footer-column form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-column input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+}
+
+.footer-column button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #4164ff;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-column button:hover {
+    background-color: #000000;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom .footer-legal a, .footer-bottom .footer-contact p a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-bottom .footer-legal a:hover, .footer-bottom .footer-contact p a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom .footer-contact, .footer-bottom .footer-legal {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-bottom .footer-contact {
+    text-align: right;
+}
+
+.footer-bottom .footer-legal {
+    text-align: left;
+}
+
+.footer-section .footer-contact p, .footer-section .footer-legal a {
+    margin: 5px 0;
+    color: #999;
+}
+
+.footer-section .footer-contact p a, .footer-section .footer-legal a {
+    color: #999;
+}
+
+.footer-section .footer-contact p a:hover, .footer-section .footer-legal a:hover {
+    color: white;
+}
